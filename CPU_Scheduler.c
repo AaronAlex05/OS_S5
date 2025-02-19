@@ -548,7 +548,6 @@ void ppriority(Process processes[], int n) {
 
 int main() {
     int n, c, time_quantum, k, c1, c2, c3, c4;
-    printf("Are u Ready?\nUr honesty is needed here\nIf yes press 1\nIf no press 0\nEnter ur choice:");
     printf("Enter the number of processes: ");
     scanf("%d", &n);
     Process *processes = (Process *)malloc(n * sizeof(Process));
